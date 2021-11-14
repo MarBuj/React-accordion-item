@@ -1,0 +1,88 @@
+.accordion {
+  &__title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 16px 30px 14px;
+
+    &--pasive {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      &::after {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        content: "";
+        height: 2px;
+        width: 200px;
+        background-color: #00adaa;
+        transition: 0.5s ease;
+      }
+    }
+
+    &--active {
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.161);
+
+      &::after {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        content: "";
+        height: 2px;
+        width: 300px;
+        background-color: #00adaa;
+        transition: 0.5s ease;
+      }
+    }
+  }
+
+  &__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 50px;
+    height: 55px;
+    background: linear-gradient(180deg, #00a9a7 0%, #00ba89 100%);
+  }
+
+  h2 {
+    margin-left: 36px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #0e2a35;
+  }
+
+  &__content {
+    height: auto;
+    margin-top: 20px;
+    padding: 0px 40px;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+
+  &__checklistItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    :nth-last-child() {
+      margin-bottom: 0px;
+    }
+  }
+
+  h5 {
+    margin-left: 21px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #0e2a35;
+  }
+}
