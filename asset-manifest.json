@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-accordion-item/static/css/main.bdc85b23.chunk.css",
+    "main.js": "/React-accordion-item/static/js/main.022c3f0f.chunk.js",
+    "main.js.map": "/React-accordion-item/static/js/main.022c3f0f.chunk.js.map",
+    "runtime-main.js": "/React-accordion-item/static/js/runtime-main.54467056.js",
+    "runtime-main.js.map": "/React-accordion-item/static/js/runtime-main.54467056.js.map",
+    "static/js/2.1d666a03.chunk.js": "/React-accordion-item/static/js/2.1d666a03.chunk.js",
+    "static/js/2.1d666a03.chunk.js.map": "/React-accordion-item/static/js/2.1d666a03.chunk.js.map",
+    "index.html": "/React-accordion-item/index.html",
+    "static/css/main.bdc85b23.chunk.css.map": "/React-accordion-item/static/css/main.bdc85b23.chunk.css.map",
+    "static/js/2.1d666a03.chunk.js.LICENSE.txt": "/React-accordion-item/static/js/2.1d666a03.chunk.js.LICENSE.txt",
+    "static/media/Radio.61573254.svg": "/React-accordion-item/static/media/Radio.61573254.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54467056.js",
+    "static/js/2.1d666a03.chunk.js",
+    "static/css/main.bdc85b23.chunk.css",
+    "static/js/main.022c3f0f.chunk.js"
+  ]
+}
